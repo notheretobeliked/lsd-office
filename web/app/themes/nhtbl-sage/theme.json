@@ -1,0 +1,147 @@
+{
+  "__generated__": "⚠️ This file is generated. Do not edit.",
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "palette": [
+        {
+          "name": "Black",
+          "slug": "black",
+          "color": "#2f2e2b"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "color": "#f5f3ec"
+        },
+        {
+          "name": "Gray 100",
+          "slug": "gray-100",
+          "color": "#dfdbda"
+        },
+        {
+          "name": "Gray 500",
+          "slug": "gray-500",
+          "color": "#807f7c"
+        },
+        {
+          "name": "Transparent",
+          "slug": "transparent",
+          "color": "transparent"
+        }
+      ]
+    },
+    "custom": {
+      "spacing": {},
+      "typography": {
+        "font-size": {
+          "base": "1.25rem"
+        },
+        "line-height": {}
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "units": [
+        "px",
+        "%",
+        "em",
+        "rem",
+        "vw",
+        "vh"
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1000px"
+    },
+    "typography": {
+      "customFontSize": false,
+      "fontFamilies": [
+        {
+          "name": "Signifier",
+          "slug": "serif",
+          "fontFamily": "Signifier,Georgia,serif"
+        },
+        {
+          "name": "Pirelli",
+          "slug": "ui",
+          "fontFamily": "Pirelli,sans-serif"
+        },
+        {
+          "name": "Pirelli",
+          "slug": "display",
+          "fontFamily": "Pirelli,sans-serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "sm",
+          "slug": "sm",
+          "size": "1rem"
+        },
+        {
+          "name": "base",
+          "slug": "base",
+          "size": "1.25rem"
+        },
+        {
+          "name": "lg",
+          "slug": "lg",
+          "size": "1.4rem"
+        },
+        {
+          "name": "xl",
+          "slug": "xl",
+          "size": "1.7rem"
+        },
+        {
+          "name": "2xl",
+          "slug": "2xl",
+          "size": "1.9rem"
+        },
+        {
+          "name": "3xl",
+          "slug": "3xl",
+          "size": "2.4rem"
+        },
+        {
+          "name": "4xl",
+          "slug": "4xl",
+          "size": "2.8rem"
+        },
+        {
+          "name": "5xl",
+          "slug": "5xl",
+          "size": "3.8rem"
+        }
+      ]
+    },
+    "blocks": {
+      "core/paragraph": {
+        "typography": {
+          "fontSizes": [
+            {
+              "slug": "base",
+              "size": "1.25rem",
+              "name": "Normal"
+            },
+            {
+              "slug": "lg",
+              "size": "1.4rem",
+              "name": "Large"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
