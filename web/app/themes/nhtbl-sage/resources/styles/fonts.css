@@ -1,17 +1,9 @@
 @font-face {
-  font-family: 'Pirelli';
-  src: url('../fonts/JLPirelli-Bold.woff2') format('woff2'),
-    url('../fonts/JLPirelli-Bold.woff') format('woff');
+  font-family: 'Arsonist';
+  src: url('../fonts/Arsonist-Black.woff2') format('woff2'),
+    url('../fonts/Arsonist-Black.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Pirelli';
-  src: url('../fonts/JLPirelli-BoldItalic.woff2') format('woff2'),
-    url('../fonts/JLPirelli-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
   font-display: swap;
 }
 @font-face {

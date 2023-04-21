@@ -72,14 +72,14 @@
           "fontFamily": "Signifier,Georgia,serif"
         },
         {
-          "name": "Pirelli",
+          "name": "Signifier",
           "slug": "ui",
-          "fontFamily": "Pirelli,sans-serif"
+          "fontFamily": "Signifier,serif"
         },
         {
-          "name": "Pirelli",
+          "name": "Arsonist",
           "slug": "display",
-          "fontFamily": "Pirelli,sans-serif"
+          "fontFamily": "Arsonist,sans-serif"
         }
       ],
       "fontSizes": [

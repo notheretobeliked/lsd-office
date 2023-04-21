@@ -17,8 +17,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'serif': ['Signifier', 'Georgia', 'serif'],
-      'ui': ['Pirelli', 'sans-serif'],
-      'display': ['Pirelli', 'sans-serif'],
+      'ui': ['Signifier', 'serif'],
+      'display': ['Arsonist', 'sans-serif'],
     },
     fontSize: {
       'sm': ['1rem', {

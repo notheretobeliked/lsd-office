@@ -5,36 +5,29 @@
   }
 
   .editor-post-title {
-    @apply font-display uppercase;
+    @apply font-display;
   }
 
-  p {
+  p,
+  li {
     @apply font-serif !text-base mb-4;
   }
 
   h2 {
-    @apply font-display uppercase text-2xl tracking-widest text-center my-4;
+    @apply font-display text-2xl text-center my-4;
   }
 
   h3 {
-    @apply font-display uppercase text-2xl tracking-widest text-left my-4;
+    @apply font-display text-2xl text-left my-4;
   }
 }
 
 @layer components {
   header h1.p-name {
-    @apply font-display uppercase;
+    @apply font-display;
   }
 
   .editor-styles-wrapper p {
     @apply font-serif;
   }
-}
-
-#event_tribe_venue,
-#event_tribe_organizer,
-#event_url,
-#event_cost,
-.eventtable {
-  display: none;
 }
