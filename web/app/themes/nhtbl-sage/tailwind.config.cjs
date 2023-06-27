@@ -18,7 +18,7 @@ module.exports = {
     fontFamily: {
       'serif': ['Signifier', 'Georgia', 'serif'],
       'ui': ['Signifier', 'serif'],
-      'display': ['Arsonist', 'sans-serif'],
+      'arsonist': ['Arsonist', 'sans-serif'],
     },
     fontSize: {
       'sm': ['1rem', {

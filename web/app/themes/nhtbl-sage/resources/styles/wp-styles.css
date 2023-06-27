@@ -5,7 +5,7 @@
   }
 
   .editor-post-title {
-    @apply font-display;
+    @apply font-arsonist;
   }
 
   p,
@@ -14,17 +14,17 @@
   }
 
   h2 {
-    @apply font-display text-2xl text-center my-4;
+    @apply font-arsonist text-xl md:text-2xl text-center uppercase max-w-2xl mx-auto;
   }
 
   h3 {
-    @apply font-display text-2xl text-left my-4;
+    @apply font-serif text-base uppercase tracking-wide mb-4; 
   }
 }
 
 @layer components {
   header h1.p-name {
-    @apply font-display;
+    @apply font-arsonist;
   }
 
   .editor-styles-wrapper p {

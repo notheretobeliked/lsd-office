@@ -14,11 +14,11 @@
   }
 
   h2 {
-    @apply font-display text-2xl text-center my-4;
+    @apply font-arsonist text-2xl text-center my-4;
   }
 
   h3 {
-    @apply font-display text-2xl text-left my-4;
+    @apply font-arsonist text-2xl text-left my-4;
   }
 
   .the-content > *:not(.alignwide):not(.alignfull) {
