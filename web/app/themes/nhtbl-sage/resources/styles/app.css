@@ -13,14 +13,6 @@
     @apply font-serif text-base mb-4;
   }
 
-  h2 {
-    @apply font-arsonist text-2xl text-center my-4;
-  }
-
-  h3 {
-    @apply font-arsonist text-2xl text-left my-4;
-  }
-
   .the-content > *:not(.alignwide):not(.alignfull) {
     @apply mx-auto max-w-4xl;
   }

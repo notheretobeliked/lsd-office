@@ -16,57 +16,47 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'serif': ['Signifier', 'Georgia', 'serif'],
-      'ui': ['Signifier', 'serif'],
-      'arsonist': ['Arsonist', 'sans-serif'],
+      serif: ['Signifier', 'Georgia', 'serif'],
+      ui: ['Signifier', 'serif'],
+      arsonist: ['Arsonist', 'sans-serif'],
     },
-    fontSize: {
-      'sm': ['1rem', {
-        lineHeight: '1.2rem',
-      }],
-      'base': ['1.25rem', {
-        lineHeight: '1.5',
-      }],
-      'lg': ['1.4rem', {
-        lineHeight: '1.5',
-      }],
-      'xl': ['1.7rem', {
-        lineHeight: '1.5',
-      }],
-      '2xl': ['1.9rem', {
-        lineHeight: '1.1',
-      }],
-      '3xl': ['2.4rem', {
-        lineHeight: '1.1',
-      }],
-      '4xl': ['2.8rem', {
-        lineHeight: '1',
-      }],
-      '5xl': ['3.8rem', {
-        lineHeight: '1.1',
-      }],
-    },
+		fontSize: {
+			xs: '0.75rem',
+			sm: ['0.9rem', 1.1],
+			base: ['1.325rem', 1.3],
+			xl: ['1.5rem', 1.1],
+			'2xl': ['2.2rem', 1.1],
+			'3xl': ['2.5', 1.1],
+			'4xl': ['3.125', 1],
+			'5xl': ['4.625rem', 1.1],
+		},
     colors: {
-      'black': '#2F2E2B',
-      'white': '#F5F3EC',
-      'gray': {
-        '500': '#807F7C',
-        '100': '#DFDBDA',
-      },
       transparent: 'transparent',
+      current: 'currentColor',
+      white: '#ffffff',
+      salmon: {
+        DEFAULT: '#ff9e6e',
+        light: '#ffdf9f',
+      },
+      'blue-parrot': {
+        DEFAULT: '#7e7cf8',
+        light: '#B5B4FA',
+      },
+      black: '#000000',
     },
+
     fluidTypography: {
       remSize: 12,
       minScreenSize: 400,
       maxScreenSize: 1680,
-      minTypeScale: 1.220,
+      minTypeScale: 1.22,
       maxTypeScale: 1.618,
-      lineHeight: 1.2
+      lineHeight: 1.2,
     },
     extend: {
       colors: {}, // Extend Tailwind's default colors
       spacing: {
-        '128': '32rem',  
+        128: '32rem',
       },
     },
   },

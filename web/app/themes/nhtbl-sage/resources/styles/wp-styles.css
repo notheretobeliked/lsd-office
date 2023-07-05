@@ -14,7 +14,7 @@
   }
 
   h2 {
-    @apply font-arsonist text-xl md:text-2xl text-center uppercase max-w-2xl mx-auto;
+    @apply font-arsonist text-xl md:text-2xl text-center lowercase !max-w-2xl mx-auto;
   }
 
   h3 {

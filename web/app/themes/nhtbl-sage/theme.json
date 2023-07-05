@@ -13,29 +13,44 @@
       "duotone": [],
       "palette": [
         {
-          "name": "Black",
-          "slug": "black",
-          "color": "#2f2e2b"
+          "name": "Transparent",
+          "slug": "transparent",
+          "color": "transparent"
+        },
+        {
+          "name": "Current",
+          "slug": "current",
+          "color": "currentcolor"
         },
         {
           "name": "White",
           "slug": "white",
-          "color": "#f5f3ec"
+          "color": "#ffffff"
         },
         {
-          "name": "Gray 100",
-          "slug": "gray-100",
-          "color": "#dfdbda"
+          "name": "Salmon DEFAULT",
+          "slug": "salmon-default",
+          "color": "#ff9e6e"
         },
         {
-          "name": "Gray 500",
-          "slug": "gray-500",
-          "color": "#807f7c"
+          "name": "Salmon Light",
+          "slug": "salmon-light",
+          "color": "#ffdf9f"
         },
         {
-          "name": "Transparent",
-          "slug": "transparent",
-          "color": "transparent"
+          "name": "Blue-parrot DEFAULT",
+          "slug": "blue-parrot-default",
+          "color": "#7e7cf8"
+        },
+        {
+          "name": "Blue-parrot Light",
+          "slug": "blue-parrot-light",
+          "color": "#b5b4fa"
+        },
+        {
+          "name": "Black",
+          "slug": "black",
+          "color": "#000000"
         }
       ]
     },
@@ -60,8 +75,8 @@
       ]
     },
     "layout": {
-      "contentSize": "800px",
-      "wideSize": "1000px"
+      "contentSize": "804px",
+      "wideSize": "1124px"
     },
     "typography": {
       "customFontSize": false,
@@ -84,44 +99,44 @@
       ],
       "fontSizes": [
         {
+          "name": "xs",
+          "slug": "xs",
+          "size": "0.75rem"
+        },
+        {
           "name": "sm",
           "slug": "sm",
-          "size": "1rem"
+          "size": "0.9rem"
         },
         {
           "name": "base",
           "slug": "base",
-          "size": "1.25rem"
-        },
-        {
-          "name": "lg",
-          "slug": "lg",
-          "size": "1.4rem"
+          "size": "1.325rem"
         },
         {
           "name": "xl",
           "slug": "xl",
-          "size": "1.7rem"
+          "size": "1.5rem"
         },
         {
           "name": "2xl",
           "slug": "2xl",
-          "size": "1.9rem"
+          "size": "2.2rem"
         },
         {
           "name": "3xl",
           "slug": "3xl",
-          "size": "2.4rem"
+          "size": "2.5"
         },
         {
           "name": "4xl",
           "slug": "4xl",
-          "size": "2.8rem"
+          "size": "3.125"
         },
         {
           "name": "5xl",
           "slug": "5xl",
-          "size": "3.8rem"
+          "size": "4.625rem"
         }
       ]
     },

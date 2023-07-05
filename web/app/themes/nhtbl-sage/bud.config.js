@@ -78,8 +78,8 @@ export default async (app) => {
         units: ['px', '%', 'em', 'rem', 'vw', 'vh'],
       },
       layout: {
-        contentSize: '800px',
-        wideSize: '1000px',
+        contentSize: '804px',
+        wideSize: '1124px',
       },
       typography: {
         customFontSize: false,
