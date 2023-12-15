@@ -11,4 +11,17 @@
 
 .editor-styles-wrapper {
   @tailwind base;
+
+  h1 {
+    @apply font-arsonist text-3xl;
+  }
+
+  h2 {
+    @apply font-arsonist text-xl;
+  }
+
+  h3 {
+    @apply font-arsonist text-base;   
+  }
+
 }
