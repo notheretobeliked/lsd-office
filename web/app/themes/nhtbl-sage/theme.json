@@ -13,44 +13,44 @@
       "duotone": [],
       "palette": [
         {
+          "color": "transparent",
           "name": "Transparent",
-          "slug": "transparent",
-          "color": "transparent"
+          "slug": "transparent"
         },
         {
+          "color": "currentcolor",
           "name": "Current",
-          "slug": "current",
-          "color": "currentcolor"
+          "slug": "current"
         },
         {
+          "color": "#ffffff",
           "name": "White",
-          "slug": "white",
-          "color": "#ffffff"
+          "slug": "white"
         },
         {
+          "color": "#ff9e6e",
           "name": "Salmon DEFAULT",
-          "slug": "salmon-default",
-          "color": "#ff9e6e"
+          "slug": "salmon-default"
         },
         {
+          "color": "#ffdf9f",
           "name": "Salmon Light",
-          "slug": "salmon-light",
-          "color": "#ffdf9f"
+          "slug": "salmon-light"
         },
         {
+          "color": "#7e7cf8",
           "name": "Blue-parrot DEFAULT",
-          "slug": "blue-parrot-default",
-          "color": "#7e7cf8"
+          "slug": "blue-parrot-default"
         },
         {
+          "color": "#b5b4fa",
           "name": "Blue-parrot Light",
-          "slug": "blue-parrot-light",
-          "color": "#b5b4fa"
+          "slug": "blue-parrot-light"
         },
         {
+          "color": "#000000",
           "name": "Black",
-          "slug": "black",
-          "color": "#000000"
+          "slug": "black"
         }
       ]
     },
@@ -82,61 +82,61 @@
       "customFontSize": false,
       "fontFamilies": [
         {
+          "fontFamily": "Signifier,Georgia,serif",
           "name": "Signifier",
-          "slug": "serif",
-          "fontFamily": "Signifier,Georgia,serif"
+          "slug": "serif"
         },
         {
+          "fontFamily": "Signifier,serif",
           "name": "Signifier",
-          "slug": "ui",
-          "fontFamily": "Signifier,serif"
+          "slug": "ui"
         },
         {
+          "fontFamily": "Arsonist,sans-serif",
           "name": "Arsonist",
-          "slug": "arsonist",
-          "fontFamily": "Arsonist,sans-serif"
+          "slug": "arsonist"
         }
       ],
       "fontSizes": [
         {
           "name": "xs",
-          "slug": "xs",
-          "size": "0.75rem"
+          "size": "0.75rem",
+          "slug": "xs"
         },
         {
           "name": "sm",
-          "slug": "sm",
-          "size": "0.9rem"
+          "size": "0.9rem",
+          "slug": "sm"
         },
         {
           "name": "base",
-          "slug": "base",
-          "size": "1.325rem"
+          "size": "1.325rem",
+          "slug": "base"
         },
         {
           "name": "xl",
-          "slug": "xl",
-          "size": "1.5rem"
+          "size": "1.5rem",
+          "slug": "xl"
         },
         {
           "name": "2xl",
-          "slug": "2xl",
-          "size": "2.2rem"
+          "size": "2.2rem",
+          "slug": "2xl"
         },
         {
           "name": "3xl",
-          "slug": "3xl",
-          "size": "2.5"
+          "size": "2.5",
+          "slug": "3xl"
         },
         {
           "name": "4xl",
-          "slug": "4xl",
-          "size": "3.125"
+          "size": "3.125",
+          "slug": "4xl"
         },
         {
           "name": "5xl",
-          "slug": "5xl",
-          "size": "4.625rem"
+          "size": "4.625rem",
+          "slug": "5xl"
         }
       ]
     },

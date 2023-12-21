@@ -56,7 +56,7 @@ export default async (app) => {
      * @see {@link https://bud.js.org/extensions/sage/theme.json/}
      * @see {@link https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/}
      */
-    .wpjson.settings({
+    .wpjson.setSettings({
       color: {
         custom: false,
         customDuotone: false,
@@ -69,7 +69,7 @@ export default async (app) => {
       custom: {
         spacing: {},
         typography: {
-          'font-size': {base: '1.25rem'},
+          'font-size': { base: '1.25rem' },
           'line-height': {},
         },
       },
