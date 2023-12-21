@@ -13,6 +13,7 @@ module.exports = {
     'the-content',
     'alignwide',
     'alignfull',
+    'indented',
   ],
   theme: {
     fontFamily: {

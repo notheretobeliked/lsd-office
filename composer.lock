@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37d25fa19efd82a69896211c444e841e",
+    "content-hash": "a2a8c43f526e54ccfd70105a5bae5e61",
     "packages": [
         {
             "name": "appsero/client",
@@ -5868,6 +5868,24 @@
             ],
             "description": "Use field groups and fields from Advanced Custom Fields in your WPGraphQL API",
             "time": "2023-04-05T19:15:42+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/modern-footnotes",
+            "version": "1.4.16",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/modern-footnotes/",
+                "reference": "tags/1.4.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/modern-footnotes.1.4.16.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/modern-footnotes/"
         },
         {
             "name": "wpengine/advanced-custom-fields-pro",
