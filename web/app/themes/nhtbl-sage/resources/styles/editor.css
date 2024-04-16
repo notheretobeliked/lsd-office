@@ -16,6 +16,11 @@
     @apply text-base;
   }
 
+  .cc {
+    font-family: Adelphe;
+    font-weight: 200;
+  }
+
   h1 {
     @apply font-arsonist text-3xl;
   }

@@ -3,7 +3,7 @@ server:
   docroot: web
 
 @prod:
-  ssh: forge@lsd-office.triennale.fr:/home/forge/lsd-office.triennale.fr/public/current
+  ssh: forge@lsd-stg.villa-arson.fr:/home/forge/lsd-stg.villa-arson.fr/public/current
 
 @staging:
   ssh: forge@lsd-stg.villa-arson.fr:/home/forge/lsd-stg.villa-arson.fr/public/current
