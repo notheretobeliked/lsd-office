@@ -104,6 +104,11 @@ Config::define('DISALLOW_FILE_EDIT', true);
 Config::define('DISALLOW_FILE_MODS', true);
 // Limit the number of post revisions that Wordpress stores (true (default WP): store every revision)
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
+Config::define( 'AS3CF_SETTINGS', serialize( array(
+	'provider' => 'do',
+	'access-key-id' => env('DO_ACCESS_KEY'),
+	'secret-access-key' => env('DO_SECRET_KEY')
+) ) );
 
 /**
  * Debugging Settings
