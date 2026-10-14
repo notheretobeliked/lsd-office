@@ -179,3 +179,18 @@ add_action('graphql_register_types', function () {
         },
     ]);
 });
+
+/**
+ * Return oEmbed fields as their stored URL in GraphQL.
+ *
+ * WPGraphQL for ACF asks ACF to format oEmbed values, which runs a remote oEmbed
+ * lookup for every field on every request (seconds for a list of posts) and returns
+ * provider HTML. The frontend renders its own players from the URL, so skip it.
+ */
+add_filter('acf/pre_format_value', function ($check, $value, $post_id, $field) {
+    if (($field['type'] ?? null) !== 'oembed' || !function_exists('is_graphql_request') || !is_graphql_request()) {
+        return $check;
+    }
+
+    return is_string($value) ? $value : $check;
+}, 10, 4);
